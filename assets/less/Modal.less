@@ -1,4 +1,4 @@
-div.overlay {
+a.overlay {
     background-color: @overlayColor;
     position: fixed;
     opacity: 0;
@@ -10,14 +10,14 @@ div.overlay {
     display:none;
 }
 div.modal { 
-    width: 50%;
+    width: 500px;
     height: 300px;
-    position: relative; 
-    margin: 10% auto; 
-    background: @modalColor; 
+    position: absolute; 
+    margin-left: 50%; 
+    left:-250px;
+    background-color: @modalColor; 
     opacity: 0; 
     border-radius:10px;
-    font-family: sans-serif;
     div.content {
         padding:10px;
     }
@@ -34,12 +34,14 @@ div.modal {
 @media only screen and (min-width:0px) and (max-width: 680px) {
     div.modal { 
         width: 100%;
+        margin-left: 0; 
+        left:0;
     }
 }
 div#modal1 div.overlay {
     .transition(0.3s, cubic-bezier(0.25, 0.5, 0.5, 0.9));
 }
-div#modal1:target div.overlay{
+div#modal1:target a.overlay{
     opacity: .8;
     display:block;
 }
@@ -48,6 +50,7 @@ div#modal1 div.modal{
     .transform(scale(0) rotate(720deg));
 }
 div#modal1:target div.modal{ 
+    
     opacity: 1; 
     .transform(scale(1) rotate(0deg));
 }
