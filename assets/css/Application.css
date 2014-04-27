@@ -51,9 +51,9 @@ div#modal6:target a.overlay {
   display: block;
 }
 div#modal1 div.modal {
-  -webkit-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  -moz-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -moz-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
   -webkit-transform: scale(0) rotate(720deg);
   -moz-transform: scale(0) rotate(720deg);
   -ms-transform: scale(0) rotate(720deg);
@@ -68,9 +68,9 @@ div#modal1:target div.modal {
   transform: scale(1) rotate(0deg);
 }
 div#modal2 div.modal {
-  -webkit-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  -moz-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -moz-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -85,9 +85,9 @@ div#modal2:target div.modal {
   transform: scale(1);
 }
 div#modal3 div.modal {
-  -webkit-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  -moz-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -moz-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
   -webkit-transform: translateY(80%);
   -moz-transform: translateY(80%);
   -ms-transform: translateY(80%);
@@ -102,9 +102,9 @@ div#modal3:target div.modal {
   transform: translateY(0);
 }
 div#modal4 div.modal {
-  -webkit-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  -moz-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -moz-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
   -webkit-transform: translate(30%) translateZ(600px) rotate(10deg);
   -moz-transform: translate(30%) translateZ(600px) rotate(10deg);
   -ms-transform: translate(30%) translateZ(600px) rotate(10deg);
@@ -122,9 +122,9 @@ div#modal5 div.modal {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  -moz-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -moz-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
   -webkit-transform: rotateY(-70deg) rotateX(-70deg);
   -moz-transform: rotateY(-70deg) rotateX(-70deg);
   -ms-transform: rotateY(-70deg) rotateX(-70deg);
@@ -142,9 +142,9 @@ div#modal6 div.modal {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transition: 1s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  -moz-transition: 1s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  transition: 1s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -webkit-transition: all 1s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -moz-transition: all 1s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 1s cubic-bezier(0.25, 0.5, 0.5, 0.9);
   -webkit-transform: translateZ(-3000px) rotateY(90deg);
   -moz-transform: translateZ(-3000px) rotateY(90deg);
   -ms-transform: translateZ(-3000px) rotateY(90deg);
