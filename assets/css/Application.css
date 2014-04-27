@@ -51,9 +51,9 @@ div#modal6:target a.overlay {
   display: block;
 }
 div#modal1 div.modal {
-  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  -moz-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -webkit-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -moz-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
   -webkit-transform: scale(0) rotate(720deg);
   -moz-transform: scale(0) rotate(720deg);
   -ms-transform: scale(0) rotate(720deg);
@@ -61,15 +61,16 @@ div#modal1 div.modal {
 }
 div#modal1:target div.modal {
   opacity: 1;
+  pointer-events: auto;
   -webkit-transform: scale(1) rotate(0deg);
   -moz-transform: scale(1) rotate(0deg);
   -ms-transform: scale(1) rotate(0deg);
   transform: scale(1) rotate(0deg);
 }
 div#modal2 div.modal {
-  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  -moz-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -webkit-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -moz-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -77,15 +78,16 @@ div#modal2 div.modal {
 }
 div#modal2:target div.modal {
   opacity: 1;
+  pointer-events: auto;
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 div#modal3 div.modal {
-  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  -moz-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -webkit-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -moz-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
   -webkit-transform: translateY(80%);
   -moz-transform: translateY(80%);
   -ms-transform: translateY(80%);
@@ -93,15 +95,16 @@ div#modal3 div.modal {
 }
 div#modal3:target div.modal {
   opacity: 1;
+  pointer-events: auto;
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
 }
 div#modal4 div.modal {
-  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  -moz-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -webkit-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -moz-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
   -webkit-transform: translate(30%) translateZ(600px) rotate(10deg);
   -moz-transform: translate(30%) translateZ(600px) rotate(10deg);
   -ms-transform: translate(30%) translateZ(600px) rotate(10deg);
@@ -109,6 +112,7 @@ div#modal4 div.modal {
 }
 div#modal4:target div.modal {
   opacity: 1;
+  pointer-events: auto;
   -webkit-transform: translate(0) translateZ(0) rotate(0);
   -moz-transform: translate(0) translateZ(0) rotate(0);
   -ms-transform: translate(0) translateZ(0) rotate(0);
@@ -118,9 +122,9 @@ div#modal5 div.modal {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  -moz-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -webkit-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -moz-transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
   -webkit-transform: rotateY(-70deg) rotateX(-70deg);
   -moz-transform: rotateY(-70deg) rotateX(-70deg);
   -ms-transform: rotateY(-70deg) rotateX(-70deg);
@@ -128,6 +132,7 @@ div#modal5 div.modal {
 }
 div#modal5:target div.modal {
   opacity: 1;
+  pointer-events: auto;
   -webkit-transform: rotateY(0) rotateX(0);
   -moz-transform: rotateY(0) rotateX(0);
   -ms-transform: rotateY(0) rotateX(0);
@@ -137,9 +142,9 @@ div#modal6 div.modal {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transition: all 1s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  -moz-transition: all 1s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  transition: all 1s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -webkit-transition: 1s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -moz-transition: 1s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: 1s cubic-bezier(0.25, 0.5, 0.5, 0.9);
   -webkit-transform: translateZ(-3000px) rotateY(90deg);
   -moz-transform: translateZ(-3000px) rotateY(90deg);
   -ms-transform: translateZ(-3000px) rotateY(90deg);
@@ -147,6 +152,7 @@ div#modal6 div.modal {
 }
 div#modal6:target div.modal {
   opacity: 1;
+  pointer-events: auto;
   -webkit-transform: translateZ(0) rotateY(0);
   -moz-transform: translateZ(0) rotateY(0);
   -ms-transform: translateZ(0) rotateY(0);

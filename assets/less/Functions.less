@@ -1,7 +1,13 @@
 .transition (@duration, @easing){
-    -webkit-transition: all @duration @easing;
-    -moz-transition: all @duration @easing;
-    transition: all @duration @easing;   
+    -webkit-transition: @duration @easing;
+    -moz-transition: @duration @easing;
+    transition: @duration @easing;   
+}
+.disableTransition (){
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
 }
 .transform (@parameters){
     -webkit-transform: @parameters;
@@ -11,6 +17,10 @@
 }
 .transformStyle(@parameter){
     -webkit-transform-style: @parameter;
-	-moz-transform-style: @parameter;
-	transform-style: @parameter;
+    -moz-transform-style: @parameter;
+    transform-style: @parameter;
+}
+.modalTargetDefault(){
+    opacity: 1; 
+    pointer-events: auto;
 }

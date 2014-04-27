@@ -55,7 +55,7 @@ div#modal1 div.modal{
     .transform(scale(0) rotate(720deg));
 }
 div#modal1:target div.modal{ 
-    opacity: 1; 
+    .modalTargetDefault();
     .transform(scale(1) rotate(0deg));
 }
 
@@ -64,7 +64,7 @@ div#modal2 div.modal{
     .transform(scale(0));
 }
 div#modal2:target div.modal{ 
-    opacity: 1; 
+    .modalTargetDefault();
     .transform(scale(1));
 }
 
@@ -73,7 +73,7 @@ div#modal3 div.modal{
     .transform(translateY(80%));
 }
 div#modal3:target div.modal{ 
-    opacity: 1; 
+    .modalTargetDefault();
     .transform(translateY(0));
 }
 
@@ -82,7 +82,7 @@ div#modal4 div.modal{
     .transform(translate(30%) translateZ(600px) rotate(10deg));
 }
 div#modal4:target div.modal{ 
-    opacity: 1; 
+    .modalTargetDefault();
     .transform(translate(0) translateZ(0) rotate(0));
 }
 
@@ -92,7 +92,7 @@ div#modal5 div.modal{
     .transform(rotateY(-70deg) rotateX(-70deg));
 }
 div#modal5:target div.modal{ 
-    opacity: 1; 
+    .modalTargetDefault();
     .transform(rotateY(0) rotateX(0));
 }
 
@@ -102,6 +102,6 @@ div#modal6 div.modal{
     .transform(translateZ(-3000px) rotateY(90deg));
 }
 div#modal6:target div.modal{ 
-    opacity: 1; 
+    .modalTargetDefault();
     .transform(translateZ(0) rotateY(0));
 }
